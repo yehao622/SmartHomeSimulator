@@ -1,0 +1,35 @@
+{
+  "name": "smart-home-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Smart Home Energy Simulator Frontend",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "socket.io-client": "^4.7.2",
+    "chart.js": "^4.4.0",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.2.4",
+    "pinia": "^2.1.6",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^4.4.9",
+    "vue-tsc": "^2.2.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "prettier": "^3.0.1",
+    "vite": "^4.4.9"
+  }
+}

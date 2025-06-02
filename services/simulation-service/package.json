@@ -1,0 +1,27 @@
+{
+  "name": "simulation-service",
+  "version": "1.0.0",
+  "description": "Smart Home Energy Simulator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.33.0",
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "axios-retry": "^3.1.9",
+    "socket.io": "^4.6.1",
+    "kafkajs": "^2.2.4",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "appliances": [
+    {
+      "id": 1,
+      "name": "Dishwasher",
+      "type": "dishwasher",
+      "icon": "dishwasher.svg",
+      "powerType": "fixed",
+      "defaultPower": 1.8,
+      "active": false,
+      "group": 1,
+      "connections": ["house"]
+    },
+    {
+      "id": 2,
+      "name": "Wash Machine",
+      "type": "wash_machine",
+      "icon": "wash_machine.svg",
+      "powerType": "fixed",
+      "defaultPower": 0.4,
+      "active": false,
+      "group": 1,
+      "connections": ["house"]
+    },
+    {
+      "id": 3,
+      "name": "Clothes Dryer",
+      "type": "clothes_dryer",
+      "icon": "clothes_dryer.svg",
+      "powerType": "fixed",
+      "defaultPower": 1.2,
+      "active": false,
+      "group": 1,
+      "connections": ["house"]
+    },
+    {
+      "id": 4,
+      "name": "HVAC",
+      "type": "hvac",
+      "icon": "hvac.svg",
+      "powerType": "variable",
+      "minPower": 0,
+      "maxPower": 2.5,
+      "defaultPower": 2.5,
+      "active": false,
+      "group": 2,
+      "connections": ["house"]
+    },
+    {
+      "id": 5,
+      "name": "Water Heater",
+      "type": "water_heater",
+      "icon": "water_heater.svg",
+      "powerType": "thermostat",
+      "minPower": 0,
+      "maxPower": 4.5,
+      "defaultPower": 4.5,
+      "setPoint": 60,
+      "active": false,
+      "group": 2,
+      "connections": ["house"]
+    },
+    {
+      "id": 6,
+      "name": "EV Charger",
+      "type": "ev_charger",
+      "icon": "ev_charger.svg",
+      "powerType": "variable",
+      "minPower": 0.0,
+      "maxPower": 6.0,
+      "defaultPower": 6.0,
+      "active": false,
+      "group": 2,
+      "connections": ["house"]
+    },
+    {
+      "id": 7,
+      "name": "TV",
+      "type": "tv",
+      "icon": "tv.svg",
+      "powerType": "fixed",
+      "defaultPower": 0.1,
+      "active": false,
+      "group": 3,
+      "connections": ["house"]
+    },
+    {
+      "id": 8,
+      "name": "Refrigerator",
+      "type": "refrigerator",
+      "icon": "fridge.svg",
+      "powerType": "cyclic",
+      "defaultPower": 0.2,
+      "active": false,
+      "group": 3,
+      "connections": ["house"]
+    },
+    {
+      "id": 9,
+      "name": "Lights",
+      "type": "lights",
+      "icon": "lights.svg",
+      "powerType": "fixed",
+      "defaultPower": 0.2,
+      "active": false,
+      "group": 3,
+      "connections": ["house"]
+    },
+    {
+      "id": 10,
+      "name": "Vacuum Cleaner",
+      "type": "vacuum",
+      "icon": "vacuum.svg",
+      "powerType": "fixed",
+      "defaultPower": 1.2,
+      "active": false,
+      "group": 3,
+      "connections": ["house"]
+    },
+    {
+      "id": 11,
+      "name": "Hair Dryer",
+      "type": "hair_dryer",
+      "icon": "hair_dryer.svg",
+      "powerType": "fixed",
+      "defaultPower": 1.0,
+      "active": false,
+      "group": 3,
+      "connections": ["house"]
+    }
+  ],
+  "powerSources": [
+    {
+      "id": "solar",
+      "name": "Solar Panel",
+      "type": "solar",
+      "icon": "solar.svg",
+      "capacity": 5.0,
+      "efficiency": 0.85,
+      "connections": ["battery", "house"]
+    },
+    {
+      "id": "battery",
+      "name": "Battery",
+      "type": "battery",
+      "icon": "battery.svg",
+      "capacity": 24.0,
+      "maxChargeRate": 3.0,
+      "maxDischargeRate": 5.0,
+      "efficiency": 0.92,
+      "initialLevel": 50,
+      "connections": ["house", "grid"]
+    },
+    {
+      "id": "grid",
+      "name": "Power Grid",
+      "type": "grid",
+      "icon": "grid.svg",
+      "maxPower": 10.0,
+      "exportEnabled": true,
+      "connections": ["house"]
+    },
+    {
+      "id": "house",
+      "name": "Home",
+      "type": "consumer",
+      "icon": "house.svg",
+      "connections": []
+    }
+  ],
+  "settings": {
+    "location": {
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "timezone": "America/Los_Angeles"
+    },
+    "electricityRate": {
+      "currency": "USD",
+      "import": [
+        {"startTime": "00:00", "endTime": "06:00", "rate": 0.012},
+        {"startTime": "06:00", "endTime": "16:00", "rate": 0.018},
+        {"startTime": "16:00", "endTime": "20:00", "rate": 0.038},
+        {"startTime": "20:00", "endTime": "24:00", "rate": 0.018}
+      ],
+      "export": 0.08
+    },
+    "simulation": {
+      "timeStep": 300,
+      "weatherData": "historical"
+    }
+  }
+}

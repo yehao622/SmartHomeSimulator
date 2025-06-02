@@ -1,0 +1,11 @@
+werkzeug==2.0.1
+flask==2.0.1
+numpy==1.23.5
+gymnasium==1.0.0
+stable-baselines3==2.4.1
+torch==2.0.1
+scipy==1.10.1
+matplotlib
+pandas
+flask-socketio==5.1.1
+flask-cors==3.0.10
