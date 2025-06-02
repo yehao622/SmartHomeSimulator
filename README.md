@@ -76,7 +76,7 @@ smart-home-cloud/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/smart-home-energy-simulator.git
+git clone https://github.com/yehaur/SmartHomeSimulator.git
 cd smart-home-energy-simulator
 
 docker-compose up -d
