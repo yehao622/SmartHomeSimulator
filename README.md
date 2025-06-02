@@ -95,3 +95,14 @@ Main Application: http://localhost:8000
 Simulation API: http://localhost:3000
 Basic Device API: http://localhost:8080
 RL Service: http://localhost:5000
+
+## System Architecture
+![System Architecture1](./docs/images/ui_overall.png)
+![System Architecture2](./docs/images/user_running.png)
+
+## Running screenshot
+![Example](./docs/images/app_running.png)
+
+## 1-day simulation example
+![User](./docs/images/run1day.png)
+![AI](./docs/images/rl_run1day.png)
