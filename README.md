@@ -14,13 +14,21 @@ Interactive Dashboard: Real-time charts and controls for system monitoring and m
 
 🏗️ Architecture
 smart-home-cloud/
+
 ├── services/
+
 │   ├── simulation-service/     # ✅ Core simulation logic (Node.js + Python RL)
+
 │   ├── device-service/        # 🚧 Basic Go service (minimal implementation)
+
 │   ├── optimization-service/  # 📋 Planned for future development
+
 │   └── frontend-service/      # ✅ Vue.js frontend with real-time charts
+
 ├── k8s/                       # 🚧 Basic Kubernetes setup (expandable)
+
 ├── terraform/                 # 🚧 Basic AWS infrastructure template
+
 └── docker-compose.yaml       # ✅ Full local development setup
 
 ### Current Implementation Status
