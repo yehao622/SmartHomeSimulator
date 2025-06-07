@@ -97,8 +97,8 @@ Basic Device API: http://localhost:8080
 RL Service: http://localhost:5000
 
 ## System Architecture
-![System Architecture1](https://github.com/user-attachments/assets/c18006a6-f561-4a56-84a0-6e53edc3f7c2)
-![System Architecture2](https://github.com/user-attachments/assets/43d6c898-e6d2-4a9a-957e-bb662c4136f9)
+![SystemArchitecture1]([https://github.com/user-attachments/assets/c18006a6-f561-4a56-84a0-6e53edc3f7c2](https://private-user-images.githubusercontent.com/26770675/449986434-837ee5a7-468a-496c-aed2-d1ba4d2f5f2c.png)
+![SystemArchitecture2](https://github.com/user-attachments/assets/43d6c898-e6d2-4a9a-957e-bb662c4136f9)
 
 ## Running Screenshot
 ![Example](https://github.com/user-attachments/assets/837ee5a7-468a-496c-aed2-d1ba4d2f5f2c)
