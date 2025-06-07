@@ -98,11 +98,11 @@ RL Service: http://localhost:5000
 
 ## System Architecture
 ![Overall](docs/images/ui_overall.png)
-![SystemArchitecture2](https://github.com/user-attachments/assets/43d6c898-e6d2-4a9a-957e-bb662c4136f9)
+![SystemArchitecture2](docs/images/app_running.png)
 
 ## Running Screenshot
-![Example](https://github.com/user-attachments/assets/837ee5a7-468a-496c-aed2-d1ba4d2f5f2c)
+![Example](docs/images/user_running.png)
 
 ## 1-Day Simulation Example
-![User](https://github.com/user-attachments/assets/80f9ceb5-30ba-43b7-a407-305f59980ef0)
-![AI](https://github.com/user-attachments/assets/970a3388-a021-4ae0-9bbd-c7024b1e7eb7)
+![User](docs/images/run1day.png)
+![AI](docs/images/rl_run1day.png)
