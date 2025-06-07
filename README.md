@@ -97,7 +97,7 @@ Basic Device API: http://localhost:8080
 RL Service: http://localhost:5000
 
 ## System Architecture
-![SystemArchitecture1](https://private-user-images.githubusercontent.com/26770675/449986434-837ee5a7-468a-496c-aed2-d1ba4d2f5f2c.png)
+![SystemArchitecture1](https://github.com/yehao622/SmartHomeSimulator/blob/main/docs/images/ui_overall.png)
 ![SystemArchitecture2](https://github.com/user-attachments/assets/43d6c898-e6d2-4a9a-957e-bb662c4136f9)
 
 ## Running Screenshot
