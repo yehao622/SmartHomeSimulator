@@ -91,10 +91,10 @@ docker-compose up -d
 
 ### Run locally ports
 
-Main Application: http://localhost:8000
-Simulation API: http://localhost:3000
-Basic Device API: http://localhost:8080
-RL Service: http://localhost:5000
+#Main Application: http://localhost:8000
+#Simulation API: http://localhost:3000
+#Basic Device API: http://localhost:8080
+#RL Service: http://localhost:5000
 
 ## System Architecture
 ![Overall](docs/images/ui_overall.png)
