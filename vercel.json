@@ -1,0 +1,24 @@
+// vercel.json - Place in your project root
+{
+  "version": 2,
+  "name": "smart-home-energy-simulator",
+  "builds": [
+    {
+      "src": "services/frontend-service/package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/services/frontend-service/$1"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "VUE_APP_DEMO_MODE": "true"
+  },
+  "buildCommand": "cd services/frontend-service && npm run build",
+  "outputDirectory": "services/frontend-service/dist",
+  "framework": "vue"
+}
