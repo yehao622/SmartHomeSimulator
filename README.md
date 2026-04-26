@@ -97,12 +97,12 @@ docker-compose up -d
 #RL Service: http://localhost:5000
 
 ## System Architecture
-![Overall](docs/images/ui_overall.png)
-![SystemArchitecture2](docs/images/app_running.png)
+![Overall](./docs/images/ui_overall.png)
+![SystemArchitecture2](./docs/images/app_running.png)
 
 ## Running Screenshot
-![Example](docs/images/user_running.png)
+![Example](./docs/images/user_running.png)
 
 ## 1-Day Simulation Example
-![User](docs/images/run1day.png)
-![AI](docs/images/rl_run1day.png)
+![User](./docs/images/run1day.png)
+![AI](./docs/images/rl_run1day.png)
