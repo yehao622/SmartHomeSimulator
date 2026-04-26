@@ -97,26 +97,22 @@ docker-compose up -d
 #RL Service: http://localhost:5000
 
 ## System Architecture
-Default UI
+### Default UI
 
 ![Overall](./docs/images/ui_overall.png)
 
-Architecture
+### Architecture
 
 ![SystemArchitecture2](./docs/images/app_running.png)
 
-## Running Screenshot
-
-User running normally
+### Running Screenshot: User running normally
 
 ![Example](./docs/images/user_running.png)
 
-## 1-Day Simulation Example
-
-Run one day as an example
+### 1-Day Simulation Example: Run one day as an example
 
 ![User](./docs/images/run1day.png)
 
-Run by RL model
+### Run by RL model
 
 ![AI](./docs/images/rl_run1day.png)
